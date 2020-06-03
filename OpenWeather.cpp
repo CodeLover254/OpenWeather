@@ -58,8 +58,8 @@ bool OW_Weather::getForecast(OW_current *current, OW_hourly *hourly, OW_daily *d
 }
 
 /***************************************************************************************
-** Function name:           getForecast
-** Description:             Setup the weather forecast request
+** Function name:           partialDataSet
+** Description:             Set partialSet to a bool value
 ***************************************************************************************/
 void OW_Weather::partialDataSet(bool partialSet) {
   
